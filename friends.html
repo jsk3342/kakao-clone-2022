@@ -24,21 +24,32 @@
       </div>
     </div>
 
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kakao talk</h1>
-      <p class="welcome-header__text">
-        If you have a Kakako Account, 
-        log in with your email or phone number
-      </p>
-      <!-- 그냥 두개만들어서 사용? 줄바꿈 방법보기 -->
+    <div class="nav-bar">
+      <div>
+        <h1>Friends</h1>
+      </div>
+      <div>
+        <nav class="serch">
+          <i class="fas fa-search"></i>
+        </nav>
+        <nav class="music">
+          <i class="fas fa-music"></i>
+        </nav>
+        <nav class="setting">
+          <i class="fas fa-cog"></i>
+        </nav>
+      </div>
+    </div>
+    <header class="nav-bar__down">
+      <i class="fas fa-info-circle"></i>
+      <p>Friends' Names Display</p>
+      <i class="fas fa-chevron-right"></i>
     </header>
-      <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number">
-        <input name="password" type="password" placeholder="Password">
-        <input type="submit" value="Log in"/>
-        <input type="submit" value="Sign up"/>
-        <a href="#">Find Kakao Account or Password</a>
-      </form>
+    <main class="status-avatars">
+      <img scr="https://avatars.githubusercontent.com/u/85912592?s=400&u=51251b29eb7afbac291d2590267ee7a029546265&v=4" width="70px" height="70px"/>
+
+    </main>
+
     <script
       src="https://kit.fontawesome.com/bd8fd6293a.js"
       crossorigin="anonymous"
