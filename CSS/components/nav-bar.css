@@ -1,0 +1,8 @@
+.nav__list {
+  display: flex;
+}
+
+[href] {
+  display: flex;
+  background-color: #f9f9fa;
+}
