@@ -1,8 +1,9 @@
-.nav__list {
-  display: flex;
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 0px;
 }
 
-[href] {
+.nav__ul {
   display: flex;
-  background-color: #f9f9fa;
+  justify-content: space-around;
 }
