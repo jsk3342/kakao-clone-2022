@@ -1,8 +1,12 @@
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column {
   display: flex;
   align-items: center;
-  padding: 20px 20px;
+  padding: 10px 10px;
 }
 
 .user-component__avatar {
@@ -31,4 +35,24 @@
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.user-component__avatar--sm {
+  border-radius: 23px;
+  width: 60px;
+  height: 60px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column span {
+  padding-right: 10px;
+  margin-left: 20px;
 }
