@@ -47,80 +47,112 @@
   justify-content: center;
 }
 
-.recommended-openchat {
+.open-chat {
   color: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: space-between;
   font-size: 18px;
   margin-bottom: 30px;
+  padding-left: 10px;
 }
 
-.recommended-openchat__title {
+.open-chat__title {
   font-weight: bold;
   font-size: 18px;
 }
 
-.recommended-chatlist {
+.open-post {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 25px 0;
 }
 
-.recommended-chatlist__title {
+.open-post__title {
   display: flex;
   flex-direction: column;
   color: rgba(0, 0, 0, 0.4);
   font-size: 20px;
   font-weight: 600px;
+  padding-left: 10px;
 }
 
-.recommended-chatlist__title__memebers {
+.open-post__title__memebers {
   display: flex;
   flex-direction: row;
 }
 
-.recommended-chatlist__title__memebers div {
+.open-post__title__memebers div {
   padding: 0 2px;
 }
 
-.recommended-chatlist__title__name {
+.open-post__title__name {
   font-size: 25px;
   color: black;
 }
 
-.recommended-chatlist__title__tag {
-  margin: 5px 0px;
+.open-post__title__tag {
+  margin: 10px 0px;
+  text-transform: uppercase;
 }
 
-.recommended-chatlist__title__memebers {
+.open-post__title__memebers {
   display: flex;
   align-items: center;
 }
 
-.recommended-chatlist__title__memebers__avater {
+.open-post__title .divider {
+  width: 0.01px;
+  height: 25px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-post__title__memebers__avater {
   width: 30px;
   height: 30px;
   border-radius: 10px;
 }
 
-.recommended-chatlist__title__memebers__state {
+.open-post__title__memebers__status {
   color: hotpink;
 }
 
-.recommended-chatlist-cover__img {
-  width: 160px;
-  height: 160px;
-  border-radius: 15px;
+..open-post__cover {
   position: relative;
 }
 
-.recommended-chatlist-cover__img__likebox {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  display: flex;
-  width: 70px;
-  height: 26px;
+.open-post__cover__img {
+  width: 130px;
+  height: 130px;
+  border-radius: 10%;
+}
+
+.open-post__cover__likebox {
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 340px;
+  right: 25px;
+}
+
+.open-post__cover__likebox2 span {
+  margin-left: 5px;
+}
+
+.open-post__cover__likebox2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 160px;
+  right: 25px;
 }
