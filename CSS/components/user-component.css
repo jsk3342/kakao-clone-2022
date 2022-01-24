@@ -15,6 +15,10 @@
   height: 70px;
 }
 
+.user-component__text {
+  padding-left: 15px;
+}
+
 .user-component__title {
   font-size: 28px;
   font-weight: bold;
@@ -31,10 +35,6 @@
   width: 90px;
   height: 90px;
   margin-right: 20px;
-}
-
-.friends-screen {
-  padding: 0px var(--horizontal-space);
 }
 
 .user-component__avatar--sm {
@@ -55,4 +55,23 @@
 .user-component__column span {
   padding-right: 10px;
   margin-left: 20px;
+}
+
+.user__notification {
+  background-color: tomato;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.user__time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }

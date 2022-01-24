@@ -1,0 +1,126 @@
+.find__dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.find-icons {
+  padding: var(--horizontal-space);
+  display: flex;
+  justify-content: space-around;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 35px;
+}
+
+.find-icons__icon span {
+  margin-top: 18px;
+}
+
+.recommended-friends {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 25px 0px;
+  margin: 25px 0px;
+}
+
+.recommended-friends__title {
+  font-size: 20px;
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends__main {
+  margin: 40px 0px;
+  padding: 60px 0px;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+}
+
+.recommended-openchat {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.recommended-openchat__title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.recommended-chatlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommended-chatlist__title {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.recommended-chatlist__title__memebers {
+  display: flex;
+  flex-direction: row;
+}
+
+.recommended-chatlist__title__memebers div {
+  padding: 0 2px;
+}
+
+.recommended-chatlist__title__name {
+  font-size: 25px;
+  color: black;
+}
+
+.recommended-chatlist__title__tag {
+  margin: 5px 0px;
+}
+
+.recommended-chatlist__title__memebers {
+  display: flex;
+  align-items: center;
+}
+
+.recommended-chatlist__title__memebers__avater {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.recommended-chatlist__title__memebers__state {
+  color: hotpink;
+}
+
+.recommended-chatlist-cover__img {
+  width: 160px;
+  height: 160px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.recommended-chatlist-cover__img__likebox {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  display: flex;
+  width: 70px;
+  height: 26px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
