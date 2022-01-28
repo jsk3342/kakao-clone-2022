@@ -1,0 +1,25 @@
+#chat-username {
+  padding-left: 80px;
+}
+
+#chat-screen {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+
+.screen-header {
+  position: sticky;
+  top: 0;
+}
+
+.yydd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 35px;
+  color: white;
+  opacity: 80%;
+  border-radius: 30px;
+}
