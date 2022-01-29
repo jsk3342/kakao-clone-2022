@@ -6,6 +6,7 @@
 @import "components/nav-bar.css";
 @import "components/user-component.css";
 @import "components/find.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
